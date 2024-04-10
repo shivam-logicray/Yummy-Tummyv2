@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Css/ImageSlider.css";
-import ReactImageMagnify from "react-image-magnify";
 
 const ImageSlider = ({ imgg }) => {
   const [image, setImage] = useState(imgg[0]);
@@ -14,21 +13,6 @@ const ImageSlider = ({ imgg }) => {
   return (
     <>
       <div className="main">
-        {/* <ReactImageMagnify
-        {...{
-          smallImage: {
-            height: 300,
-            width: 280,
-            src:image
-          },
-          largeImage:{
-            src:image,
-            height:1200,
-            width:1200,
-          }
-        }}
-      /> */}
-
         <img src={image} />
       </div>
       <div className="flex_row">
