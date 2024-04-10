@@ -20,7 +20,7 @@ const Checkout = () => {
   let shipping = useSelector(selectcheckout);
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://yummy-tummy-seven.vercel.app/create-payment-intent", {
+    fetch("https://yummy-tummyv2.vercel.app/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: total, shipping }),
