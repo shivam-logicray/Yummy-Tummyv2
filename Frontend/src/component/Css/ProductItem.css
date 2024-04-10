@@ -1,0 +1,15 @@
+/* .card.cart.productbtn {
+  border-radius: 2px !important;
+}
+
+.card.cart.productbtn:hover {
+  background-color: darkcyan !important;
+} */
+
+.card {
+  text-align: center !important;
+}
+.card.image{
+  flex-direction: column;
+  justify-content: space-between;
+}

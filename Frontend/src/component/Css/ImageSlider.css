@@ -1,0 +1,24 @@
+
+.main {
+  height: 400px;
+  width: 500px;
+  transform: scale(1) !important;
+  transition: transfrom 1 ease-in-out;
+}
+.main:hover {
+  transform: scale(1.1) !important;
+  border-radius: 5px !important;
+}
+img:hover{
+    border-radius: 5% !important;
+}
+.flex_row {
+  margin: 15px 0 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.clicked {
+  border: 5px solid rgb(126, 165, 209);
+}
+

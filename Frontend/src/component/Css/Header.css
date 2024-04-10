@@ -1,0 +1,88 @@
+.navbar {
+  background-color: darkcyan !important;
+}
+.home {
+  color: whitesmoke !important;
+}
+.home:hover {
+  color: darkmagenta !important;
+}
+.product {
+  color: whitesmoke !important;
+}
+.product:hover {
+  color: darkmagenta !important;
+}
+
+.categories {
+  color: whitesmoke !important;
+}
+.categories:hover {
+  color: darkmagenta !important;
+}
+
+.foodCtegories {
+  color: whitesmoke !important;
+  font-family: cursive;
+  text-align: center;
+}
+.foodCtegories:hover {
+  background-color: cyan !important;
+}
+.non-veg {
+  color: black !important;
+  font-family: cursive;
+  text-align: center;
+}
+.non-veg:hover {
+  background-color: cyan !important;
+}
+
+.search {
+  color:whitesmoke!important;
+}
+
+.search:hover {
+  color: darkblue !important;
+  background-color: darkslategray !important;
+}
+
+.register {
+  color: whitesmoke !important;
+}
+.register:hover {
+  color: darkmagenta !important;
+}
+.login {
+  color:whitesmoke !important;
+}
+.login:hover {
+  color: darkmagenta !important;
+}
+.shoppingCart {
+  color: whitesmoke !important;
+}
+.shoppingCart:hover {
+  color: darkmagenta !important;
+}
+
+.welcome {
+  color: whitesmoke !important;
+}
+.welcome:hover {
+  color: darkmagenta !important;
+}
+
+.myorder {
+  color: whitesmoke !important;
+}
+.myorder:hover {
+  color: darkmagenta !important;
+}
+
+.logout {
+  color: whitesmoke !important;
+}
+.logout:hover {
+  color: darkmagenta !important;
+}
