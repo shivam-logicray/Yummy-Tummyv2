@@ -4,7 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import { selectproduct } from "../Redux/productSlice";
 import { FaRupeeSign } from "react-icons/fa";
 import { add_to_cart, decrease, selectCartItem } from "../Redux/cartSlice";
-import ReactImageMagnify from "react-image-magnify";
 import ImageSlider from "./ImageSlider";
 import { toast } from "react-toastify";
 
